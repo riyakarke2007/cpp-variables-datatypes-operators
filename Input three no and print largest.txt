@@ -1,0 +1,19 @@
+//Write a program to input three numbers and print largest among them.
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,c;
+    cout<<"Enter three numbers:";
+    cin>>a>>b>>c;
+    if(a>=b && a>=c){
+        cout<<"Largest number among three is:"<<a<<"\n";
+    }
+    else if(b>=a && b>=c){
+        cout<<"Largest among three is:"<<b<<"\n";
+    }
+    else{
+        cout<<"Largest among three is:"<<c<<"\n";
+    }
+    return 0;
+}

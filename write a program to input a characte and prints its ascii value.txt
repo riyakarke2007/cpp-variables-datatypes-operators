@@ -1,0 +1,13 @@
+//write a program to input a character and prints its ASCII value.
+#include<iostream>
+using namespace std;
+int main()
+{
+    char ch;
+    int asciiValue;
+    cout<<"Enter a character(uppercase or lowercase):";
+    cin>>ch;
+    asciiValue=(int)ch;
+    cout<<"asciiValue is:"<<asciiValue<<"\n";
+    return 0;
+}

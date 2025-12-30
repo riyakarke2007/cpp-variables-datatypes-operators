@@ -1,0 +1,16 @@
+//write a program to input an integer and prints its square and cube.
+#include<iostream>
+using namespace std;
+int main()
+{
+    int number;
+    int square;
+    int cube;
+    cout<<"Enter a number:";
+    cin>>number;
+    square=number*number;
+    cube=number*number*number;
+    cout<<"Square of entered number is:"<<square<<"\n";
+    cout<<"Cube of entered number is:"<<cube<<"\n";
+    return 0;
+}

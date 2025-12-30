@@ -1,0 +1,16 @@
+//write a program to input the length and breadth of a rectangle and print its area.
+#include<iostream>
+using namespace std;
+int main()
+{
+float length,breadth;
+float area;
+cout<<"Enter length:";
+cin>>length;
+cout<<"Enter breadth:";
+cin>>breadth;
+area=length * breadth;
+cout<<"Area of rectangle is:"<<area<<"\n"; 
+return 0;
+}
+

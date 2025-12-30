@@ -1,0 +1,14 @@
+//write the program to input the radius of a circle and print its area.
+#include<iostream>
+using namespace std;
+int main()
+{
+    int radius;
+    float PI=3.14;
+    float circleArea;
+    cout<<"Enter the radius:";
+    cin>>radius;
+    circleArea=3.14*radius*radius;
+    cout<<"Area of circle is:"<<circleArea<<"\n";
+    return 0;
+}
