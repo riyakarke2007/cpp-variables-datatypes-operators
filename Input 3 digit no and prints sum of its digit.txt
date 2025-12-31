@@ -1,0 +1,26 @@
+//Write a program to input 3-digit number and print the sun of its digit.
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int num, sum;
+    int digit1, digit2, digit3;
+
+    cout << "Enter a 3-digit number: ";
+    cin >> num;
+
+    digit3 = num % 10;      // last digit
+    num = num / 10;
+
+    digit2 = num % 10;      // middle digit
+    num = num / 10;
+
+    digit1 = num;           // first digit
+
+    sum = digit1 + digit2 + digit3;
+
+    cout << "Sum of digits is: " << sum << "\n";
+
+    return 0;
+}
